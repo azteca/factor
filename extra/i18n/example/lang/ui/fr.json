@@ -1,0 +1,18 @@
+{
+    "page-title": "Titre de la page en Français",
+    "change-language": "Change la langue du site en",
+    "change": "Change",
+    "title": "Titre",
+    "body": "Contenu",
+    "author": "Auteur",
+    "published-date": "Date de Publication",
+
+    "crud": {
+        "create": "Créer",
+        "back": "Retour",
+        "show": "Afficher",
+        "edit": "Modifier",
+        "destroy": "Détruire",
+        "new-page": "Créer une nouvelle page"
+    }
+}

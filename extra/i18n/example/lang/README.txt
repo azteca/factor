@@ -1,0 +1,1 @@
+Folders in the 'lang' directory will be parsed at run-time for language resources. All folders must have the same number of files. If for example the 'ui' folder contains an en-US.json translation, every other folder under 'lang' must contain an en-US.json translation file (with different content of course).

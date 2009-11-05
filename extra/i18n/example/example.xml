@@ -1,0 +1,44 @@
+<?xml version='1.0' ?>
+<t:chloe xmlns:t="http://factorcode.org/chloe/1.0">
+        <h2>Localization Tests</h2>
+        <t:img t:src="$example-app/public/images/Factor_128x128.png" t:alt="Factor Logo"/>
+        <br />
+        <p>This page is displayed according to your browser's Accept-Language settings.</p>
+        <t:a t:href="$example-app/header">Click here to check your current Accept-Language header</t:a>
+        <p>You can override it by selecting a language below.</p>
+        <p>This will use the lang query parameter (e.g. ?lang=fr) to set a Furnace session variable.</p>
+        <a href="?lang=fr">Poursuivre en Français</a>
+        <br />
+        <a href="?lang=en-US">Continue in English</a>
+        <p>Some translations (watch them change when you select a language above):</p>
+        <b>User Interface related</b>
+        <table width="700" cellpadding="4" cellspacing="4">
+        	<tr>
+        		<td><code>&lt;t:i18n t:translate="crud:new-page" /&gt;</code></td>
+        		<td><t:i18n t:translate="crud:new-page" /></td>
+        	</tr>
+        	<tr>
+        		<td><code>&lt;t:i18n t:translate="page-title" /&gt;</code></td>
+        		<td><t:i18n t:translate="page-title" /></td>
+        	</tr>
+        </table>
+        <b>Time related</b>
+        <table width="700" cellpadding="4" cellspacing="4">
+        	<tr>
+        		<td><code>&lt;t:dt t:ts="now" t:format="formats:short-datetime" /&gt;</code></td>
+        		<td><t:dt t:ts="now" t:format="formats:short-datetime" /></td>
+        	</tr>
+        	<tr>
+        		<td><code>&lt;t:dt t:ts="now" t:format="formats:long-datetime" /&gt;</code></td>
+        		<td><t:dt t:ts="now" t:format="formats:long-datetime" /></td>
+        	</tr>
+        	<tr>
+        		<td><code>&lt;t:dt t:ts="now" t:format="formats:datetime" /&gt;</code></td>
+        		<td><t:dt t:ts="now" t:format="formats:datetime" /></td>
+        	</tr>
+        	<tr>
+        		<td><code>&lt;t:dt t:ts="2 days ago" t:format="formats:date" /&gt;</code></td>
+        		<td><t:dt t:ts="2 days ago" t:format="formats:date" /></td>
+        	</tr>
+        </table>
+</t:chloe>

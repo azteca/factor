@@ -1,0 +1,38 @@
+{
+    "title": "English",
+    "code": "en",
+    "sublocales": [],
+    "direction": "ltr",
+
+    "week": {
+        "start": "sunday",
+        "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "abbrs": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    },
+
+    "months": {
+        "names": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "abbrs": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "standalone": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    },
+
+    "time": {
+      "am": "AM",
+      "pm": "PM"
+    },
+
+    "formats": {
+      "time": "%H:%M",
+      "date": "%d/%m/%Y",
+      "short-date": "%d %b",
+      "long-date": "%d %B, %Y",
+      "datetime": "%a %d %b %H:%M:%S %Z %Y",
+      "short-datetime": "%d %b %H:%M",
+      "long-datetime": "%d %B, %Y %H:%M"
+    },
+
+    "numbers": {
+      "decimal-separator": ".",
+      "group-delimiter": ","
+    }
+}

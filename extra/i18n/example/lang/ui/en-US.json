@@ -1,0 +1,18 @@
+{
+    "page-title": "English Page Title",
+    "change-language": "Change the site Language to",
+    "change": "Change",
+    "title": "Title",
+    "body": "Body",
+    "author": "Author",
+    "published-date": "Publication Date",
+
+    "crud": {
+        "create": "Create",
+        "back": "Back",
+        "show": "Show",
+        "edit": "Edit",
+        "destroy": "Destroy",
+        "new-page": "New Page"
+    }
+}
